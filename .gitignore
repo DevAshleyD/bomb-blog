@@ -1,6 +1,5 @@
 /node_modules
 .next
-.env
 test.sql
 stats.js
 notes.txt
