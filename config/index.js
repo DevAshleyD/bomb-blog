@@ -1,8 +1,10 @@
 require('dotenv').config();
 let mySqlConfig = {
-    host: process.env.MYSQL_HOST || 'localhost',
-    user: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PW,
+    host: process.env.MYSQL_HOST || 'sq65ur5a5bj7flas.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: process.env.MYSQL_USER || 'jer0hoim1hqkhz9d',
+    password: process.env.MYSQL_PW || 'l3kmp7yrchnd63ud',
+    port: process.env.MYSQL_PORT || '3306',
+    database: process.env.MYSQL_DATABASE || 'sdqom6cfmg2fmniz'
 }
 const env = process.env.NODE_ENV || 'development';
 if (env === 'test') {
